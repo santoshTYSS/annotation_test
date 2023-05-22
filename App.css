@@ -1,0 +1,234 @@
+.App {
+  width: 100%;
+  height: 100%;
+}
+.main{
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
+
+/* Split the screen in half */
+.split {
+height: 100%;
+position: absolute;
+overflow-x: hidden;
+z-index: 1;
+top: 0;
+padding-top: 20px;
+}
+.left {
+left: 1%;
+right:20%;
+width: 65%;
+}
+
+.right {
+right: 0;
+width: 30%;
+}
+.Collapsible__trigger.is-open svg {
+  transform: rotate(180deg);
+}
+
+
+/* If you want the content centered horizontally and vertically */
+.centered{
+position: absolute;
+transform: translate(-50%, -50%);
+text-align: center;
+top:50%;
+left:50%;
+}
+.addbutton{
+  width:100%;
+  padding:1%;
+  display: fixed;
+  background-color: lightcyan;
+}
+.editdiv{
+  background-color: aliceblue;
+  border-style: round;
+}
+.editdisplay{
+  font-size: 12px;
+}
+.groupname{
+   background-color: darkkhaki;
+}
+.inputbox{
+  width:100%;
+  background-color: darkkhaki;
+}
+input[type=text]
+{
+    border:none;
+    font-size: 16px;
+    padding:1.5%;
+    color: darkblue;
+    font-weight: bold;
+    
+}
+div p{
+padding-left:5%;
+}
+
+.pagebutton{
+  background-color: #04AA6D; 
+  border: 1px solid white; 
+  color: white; /* White text */
+  padding: 10px 10px; 
+  cursor: pointer; 
+  width: 10%; 
+  display: inline-block; 
+  text-align: center;
+}
+.datasetbutton{
+  background-color: palegoldenrod; 
+  border: 1px solid white; 
+  color: black; /* White text */
+  padding: 10px 10px; 
+  cursor: pointer; 
+  width: 25%; 
+  display: inline; 
+  text-align: center;
+  font-weight: bold;
+}
+.changed {
+border: 3px outset green;
+border-left-width: 6px;
+}
+
+.buttonchanged{
+margin-right : 10%;
+}
+
+.delete::before {
+font-family: "Font Awesome 5 Free";
+content: "\f410";
+display: inline-block;
+padding-right: 3px;
+vertical-align: middle;
+}
+
+.add::before {
+font-family: "Font Awesome 5 Free";
+content: "\f14a";
+display: inline-block;
+padding-right: 3px;
+vertical-align: middle;
+}
+
+.buttonassign {
+text-align: right;
+padding-right: 15px;
+background-color: wheat;
+}
+
+LABEL.indented-checkbox-text
+{
+margin-left: 2em;
+display: block;
+position: relative;
+}
+
+.inputbox
+{
+margin-left: 2em;
+display: flex;
+position: relative;
+}
+.summary{
+  background-color: seashell;
+  width:100%;
+  height:100px;
+  resize: vertical;
+}
+.summary-ask{
+  margin: 1;
+}
+.top{
+  position: absolute;
+  width: 100%;
+  height: 90%;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+}
+.submitbutton{
+  width:20%;
+  padding:1%;
+  display: absolute;
+  background-color: salmon;
+  font-size: large;
+  font-weight: bold;
+}
+
+.description {
+  color: black;
+  padding-bottom:2em;
+  word-break: normal;
+  overflow-wrap:anywhere;
+  line-height: 2em;
+  hyphens: auto;
+  display: block;
+}
+
+.description::after{
+  content: <br>
+}
+
+.description del {
+  color: red;
+  /* text-decoration: none; */
+}
+del::after {
+  content: " ";
+}
+del::before {
+  content: " ";
+}
+.description punc {
+  margin-left: -4px;
+  margin-right: 4px;
+}
+.description add {
+  color: green;
+}
+add::after {
+  content: " ";
+}
+add::before {
+  content: " ";
+}
+.description edit:hover {
+  background-color: lavender;
+  color:black;
+  
+}
+.contentText{
+  padding:8px;
+}
+.collapse{  
+  box-sizing: border-box;
+  word-wrap: break-word;
+  display:inline-block;
+  background-color: wheat;
+}
+.oneSelect{  
+  box-sizing: border-box;
+  word-wrap: break-word;
+  display:inline-block;
+  background-color: aqua;
+}
+.unchanged{
+  display:inline;
+}
+.unchanged::after{
+  content:" ";
+  display:inline;
+}
