@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/santoshTYSS/test/static/css/main.da5504c0.css",
+    "main.js": "/santoshTYSS/test/static/js/main.ef6a12ba.js",
+    "static/js/787.a0b2cb4d.chunk.js": "/santoshTYSS/test/static/js/787.a0b2cb4d.chunk.js",
+    "index.html": "/santoshTYSS/test/index.html",
+    "main.da5504c0.css.map": "/santoshTYSS/test/static/css/main.da5504c0.css.map",
+    "main.ef6a12ba.js.map": "/santoshTYSS/test/static/js/main.ef6a12ba.js.map",
+    "787.a0b2cb4d.chunk.js.map": "/santoshTYSS/test/static/js/787.a0b2cb4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da5504c0.css",
+    "static/js/main.ef6a12ba.js"
+  ]
+}
